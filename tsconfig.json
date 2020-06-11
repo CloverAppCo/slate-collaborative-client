@@ -1,0 +1,16 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "include": ["./src/**/*"],
+  "compilerOptions": {
+    "rootDir": "./src",
+    "baseUrl": "./src",
+    "outDir": "./lib",
+    "composite": true,
+    "paths": {
+      "@slate-collaborative/bridge": ["../../bridge"]
+    }
+  },
+  "references": [
+    { "path": "../bridge" }
+  ]
+}
