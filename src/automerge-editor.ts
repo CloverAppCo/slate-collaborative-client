@@ -140,6 +140,42 @@ export const AutomergeEditor = {
     }
   },
 
+  /**
+   * Runs an undo if the local user can undo according to Automerge
+   */
+
+  undo: (e: AutomergeEditor, docId: string) => {
+    const doc = e.docSet.getDoc(docId)
+
+    if (!doc) {
+      return
+    }
+
+    if (Automerge.canUndo(doc)) {
+      console.log('undo something!!!!!');
+    } else {
+      console.log('no undo');
+    }
+  },
+
+  /**
+   * Runs a redo if the local user can undo according to Automerge
+   */
+
+  redo: (e: AutomergeEditor, docId: string) => {
+    const doc = e.docSet.getDoc(docId)
+
+    if (!doc) {
+      return
+    }
+
+    if (Automerge.canUndo(doc)) {
+      console.log('redo something!!!!!');
+    } else {
+      console.log('no redo');
+    }
+  },
+
   garbageCursor: (e: AutomergeEditor, docId: string) => {
     const doc = e.docSet.getDoc(docId)
 

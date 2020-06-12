@@ -37,6 +37,14 @@ export declare const AutomergeEditor: {
      * Generate automerge diff, convert and apply operations to Editor
      */
     applyOperation: (e: AutomergeEditor, docId: string, data: Automerge.Message) => void;
+    /**
+     * Runs an undo if the local user can undo according to Automerge
+     */
+    undo: (e: AutomergeEditor, docId: string) => void;
+    /**
+     * Runs a redo if the local user can undo according to Automerge
+     */
+    redo: (e: AutomergeEditor, docId: string) => void;
     garbageCursor: (e: AutomergeEditor, docId: string) => void;
 };
 //# sourceMappingURL=automerge-editor.d.ts.map

@@ -332,8 +332,8 @@
         "affectsGlobalScope": false
       },
       "./src/automerge-editor.ts": {
-        "version": "b113c99277249159b908c302828a4937ebc9a7741866ae3e4e88880aa4da1d59",
-        "signature": "07a5b666fde3249561e82722252e5dc18fb9881e76bcf95a867cd1ea8c398308",
+        "version": "b454ec92716fe8f990113dd29bdad55cbc0bab36512d526e1fa6cd4642879bae",
+        "signature": "837114a5ede72958dcd07e3a5750cf2a369f8240c53bd06406fb513e7bbdc01a",
         "affectsGlobalScope": false
       },
       "../../node_modules/@types/react/global.d.ts": {
@@ -366,6 +366,11 @@
         "signature": "b8f54333e7bc492c9ad8bfca6154101edb0cc499952627dd6bdf1b261fd53dac",
         "affectsGlobalScope": false
       },
+      "./src/withautomergehistory.ts": {
+        "version": "8953cb02b414f939ba57c588fdd65004e0dac50c114dd92de842f226be0179e1",
+        "signature": "66f2b4cf3ad2b3e62aecdf6bdbc6794ccab22ddf0df7681c2f005b867440b1b1",
+        "affectsGlobalScope": false
+      },
       "../../node_modules/@types/socket.io-client/index.d.ts": {
         "version": "829cee346cb86de54e7a633a42d0ea1f5b3408f2de26759b1084e6e9ffe9fbcc",
         "signature": "829cee346cb86de54e7a633a42d0ea1f5b3408f2de26759b1084e6e9ffe9fbcc",
@@ -382,8 +387,8 @@
         "affectsGlobalScope": false
       },
       "./src/index.ts": {
-        "version": "f12392f39c6d098f88d255a5375d3ff78a7118502a47499dc3bb63db4acf1c4b",
-        "signature": "afe059bd5d5238c7ba8000f226344f954570675c6df3015506cfd5c53ed44a3e",
+        "version": "802c0e093ea57ba4856f6e7940e81461ea94ac85396f2af0ba465103383efa7e",
+        "signature": "815bbb69f5a1adcfbda94efdf03f2e2a3db3cf5dbea2166764d4a57ad4e738fd",
         "affectsGlobalScope": false
       },
       "../../node_modules/@babel/types/lib/index.d.ts": {
@@ -2236,6 +2241,7 @@
         "../../node_modules/@types/node/util.d.ts",
         "./src/usecursor.ts",
         "./src/withautomerge.ts",
+        "./src/withautomergehistory.ts",
         "./src/withiocollaboration.ts",
         "./src/withsocketio.ts"
       ],
@@ -2250,6 +2256,16 @@
         "./src/automerge-editor.ts"
       ],
       "./src/withautomerge.ts": [
+        "../../node_modules/@types/node/fs.d.ts",
+        "../../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts",
+        "../../node_modules/@types/node/util.d.ts",
+        "../../node_modules/automerge/dist/index.d.ts",
+        "../../node_modules/slate/dist/index.d.ts",
+        "../bridge/lib/index.d.ts",
+        "./src/automerge-editor.ts"
+      ],
+      "./src/withautomergehistory.ts": [
         "../../node_modules/@types/node/fs.d.ts",
         "../../node_modules/@types/node/ts3.2/fs.d.ts",
         "../../node_modules/@types/node/ts3.2/util.d.ts",
@@ -3615,6 +3631,7 @@
       "./src/index.ts": [
         "./src/usecursor.ts",
         "./src/withautomerge.ts",
+        "./src/withautomergehistory.ts",
         "./src/withiocollaboration.ts",
         "./src/withsocketio.ts"
       ],
@@ -3627,6 +3644,9 @@
         "../../node_modules/slate/dist/index.d.ts",
         "../bridge/lib/index.d.ts",
         "./src/automerge-editor.ts"
+      ],
+      "./src/withautomergehistory.ts": [
+        "../../node_modules/slate/dist/index.d.ts"
       ],
       "./src/withiocollaboration.ts": [
         "../../node_modules/slate/dist/index.d.ts",
@@ -3810,6 +3830,7 @@
       "./src/index.ts",
       "./src/usecursor.ts",
       "./src/withautomerge.ts",
+      "./src/withautomergehistory.ts",
       "./src/withiocollaboration.ts",
       "./src/withsocketio.ts"
     ]
