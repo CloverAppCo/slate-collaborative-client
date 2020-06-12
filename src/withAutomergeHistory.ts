@@ -23,6 +23,8 @@ const withAutomergeHistory = <T extends Editor>(
   editor: T,
   options: AutomergeHistoryOptions
 ) => {
+  console.log('history applied')
+
   const e = editor as T & AutomergeEditor & HistoryEditor
 
   const { docId } = options || {}
