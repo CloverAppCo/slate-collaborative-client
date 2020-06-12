@@ -34,6 +34,8 @@ const withAutomergeHistory = <T extends Editor>(
   e.redo = () => {
 
   }
+
+  return e;
 }
 
 export default withAutomergeHistory

@@ -367,8 +367,8 @@
         "affectsGlobalScope": false
       },
       "./src/withautomergehistory.ts": {
-        "version": "8953cb02b414f939ba57c588fdd65004e0dac50c114dd92de842f226be0179e1",
-        "signature": "66f2b4cf3ad2b3e62aecdf6bdbc6794ccab22ddf0df7681c2f005b867440b1b1",
+        "version": "3bcee3a9848a5daa8572cd15b8c85b23841a963b16c2c7638c33795c65ccc6ed",
+        "signature": "77d42d03074992f6bec931f02a126bdcea2834f6cdef422f20e4e4f8ef9fff78",
         "affectsGlobalScope": false
       },
       "../../node_modules/@types/socket.io-client/index.d.ts": {
@@ -382,8 +382,8 @@
         "affectsGlobalScope": false
       },
       "./src/withiocollaboration.ts": {
-        "version": "d1269a7d9ee1d741a79e8ec8ac26e62920253ef62b156cafd59843a5c4535c66",
-        "signature": "d13d3c405958ef11fa11c1c0da04b5bb81fa0934d124728e9fdb945c2bc51a54",
+        "version": "ef7ad15f956fa333dd2466f7487b09994aaacdf0966b936aad6387a9304722f7",
+        "signature": "e6beebee568c199b49715cdcce3139bf56af6e5b11a2834f39c818820ed15d79",
         "affectsGlobalScope": false
       },
       "./src/index.ts": {
@@ -2283,6 +2283,7 @@
         "../../node_modules/slate/dist/index.d.ts",
         "./src/automerge-editor.ts",
         "./src/withautomerge.ts",
+        "./src/withautomergehistory.ts",
         "./src/withsocketio.ts"
       ],
       "./src/withsocketio.ts": [
@@ -3646,12 +3647,14 @@
         "./src/automerge-editor.ts"
       ],
       "./src/withautomergehistory.ts": [
-        "../../node_modules/slate/dist/index.d.ts"
+        "../../node_modules/slate/dist/index.d.ts",
+        "./src/automerge-editor.ts"
       ],
       "./src/withiocollaboration.ts": [
         "../../node_modules/slate/dist/index.d.ts",
         "./src/automerge-editor.ts",
         "./src/withautomerge.ts",
+        "./src/withautomergehistory.ts",
         "./src/withsocketio.ts"
       ],
       "./src/withsocketio.ts": [
