@@ -367,7 +367,7 @@
         "affectsGlobalScope": false
       },
       "./src/withautomergehistory.ts": {
-        "version": "cebcba3d33611735b8a5437ab8484c6eac37253cac432ee889bc79be76164a26",
+        "version": "c772ab1fbca8fa683d959f75477e9e659d2ecad37477d9fa9e20a2cc2caf52ab",
         "signature": "77d42d03074992f6bec931f02a126bdcea2834f6cdef422f20e4e4f8ef9fff78",
         "affectsGlobalScope": false
       },

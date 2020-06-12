@@ -30,11 +30,11 @@ const withAutomergeHistory = <T extends Editor>(
   const { docId } = options || {}
 
   e.undo = () => {
-    const current: any = e.docSet.getDoc(docId)
+    AutomergeEditor.undo(e, docId);
   }
 
   e.redo = () => {
-
+    AutomergeEditor.redo(e, docId);
   }
 
   return e;
