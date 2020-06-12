@@ -152,6 +152,7 @@ export const AutomergeEditor = {
     }
 
     if (Automerge.canUndo(doc)) {
+      console.log(doc);
       console.log('undo something!!!!!');
     } else {
       console.log('no undo');

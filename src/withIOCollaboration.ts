@@ -2,7 +2,6 @@ import { Editor } from 'slate'
 import { AutomergeEditor } from './automerge-editor'
 
 import withAutomerge, { AutomergeOptions } from './withAutomerge'
-import withAutomergeHistory, { AutomergeHistoryOptions } from './withAutomergeHistory';
 import withSocketIO, {
   WithSocketIOEditor,
   SocketIOPluginOptions
@@ -14,8 +13,8 @@ import withSocketIO, {
 
 const withIOCollaboration = <T extends Editor>(
   editor: T,
-  options: AutomergeOptions & SocketIOPluginOptions & AutomergeHistoryOptions
+  options: AutomergeOptions & SocketIOPluginOptions
 ): T & WithSocketIOEditor & AutomergeEditor =>
-  withSocketIO(withAutomergeHistory(withAutomerge(editor, options), options), options)
+  withSocketIO(withAutomerge(editor, options), options)
 
 export default withIOCollaboration

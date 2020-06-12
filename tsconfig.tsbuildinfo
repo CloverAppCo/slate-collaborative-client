@@ -332,7 +332,7 @@
         "affectsGlobalScope": false
       },
       "./src/automerge-editor.ts": {
-        "version": "b454ec92716fe8f990113dd29bdad55cbc0bab36512d526e1fa6cd4642879bae",
+        "version": "f20c3398c2c64a9a533febb374ea4c5dff5438de4212b4f1a6e51cb71c86908e",
         "signature": "837114a5ede72958dcd07e3a5750cf2a369f8240c53bd06406fb513e7bbdc01a",
         "affectsGlobalScope": false
       },
@@ -382,8 +382,8 @@
         "affectsGlobalScope": false
       },
       "./src/withiocollaboration.ts": {
-        "version": "ef7ad15f956fa333dd2466f7487b09994aaacdf0966b936aad6387a9304722f7",
-        "signature": "e6beebee568c199b49715cdcce3139bf56af6e5b11a2834f39c818820ed15d79",
+        "version": "d1269a7d9ee1d741a79e8ec8ac26e62920253ef62b156cafd59843a5c4535c66",
+        "signature": "d13d3c405958ef11fa11c1c0da04b5bb81fa0934d124728e9fdb945c2bc51a54",
         "affectsGlobalScope": false
       },
       "./src/index.ts": {
@@ -2283,7 +2283,6 @@
         "../../node_modules/slate/dist/index.d.ts",
         "./src/automerge-editor.ts",
         "./src/withautomerge.ts",
-        "./src/withautomergehistory.ts",
         "./src/withsocketio.ts"
       ],
       "./src/withsocketio.ts": [
@@ -3654,7 +3653,6 @@
         "../../node_modules/slate/dist/index.d.ts",
         "./src/automerge-editor.ts",
         "./src/withautomerge.ts",
-        "./src/withautomergehistory.ts",
         "./src/withsocketio.ts"
       ],
       "./src/withsocketio.ts": [
